@@ -7,3 +7,61 @@
 body {
   background-color: #EFEFEF;
 }
+
+.main {
+  display: grid;
+  grid-template-columns: 14% 86%;
+}
+
+.lateral {
+  background-color: rgba(0, 0, 0, 0.39);
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+
+.page-content {
+  background-color: #FFF;
+}
+
+/* 
+*
+* CONTEUDO DO SITE
+*
+*/
+
+.channel{
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bloco-container {
+  margin-top: 8px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.item_box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 250px 20px;
+}
+
+.album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.album img {
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgb(25 25 34 / 16%);
+}
+
+.nome_artista{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
